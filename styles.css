@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 
 .footer {
-    background-color: #e99064;
+    background-color: #F3A780;
     padding: 24px;
     text-align: center;
     color: #4722b6;
@@ -11,13 +11,13 @@
 }
 
 .header {
-    padding: 2% 0% 0% 1%;
-    background-color: #e99064;
+    padding: 2% 0% 0% 5%;
+    background-color: #F3A780;
 }
 
 .header_menu {
     display: flex;
-    gap: 60px;
+    gap: 44px;
 }
 
 .header_menu_link {
