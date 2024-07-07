@@ -14,9 +14,9 @@ function encriptar() {
     document.getElementById ("texto").value = textoCifrado;
     tituloMensaje.textContent = "Texto encriptado con éxito";
     parrafo.textContent = "";
-    avatar.src = "./Users/rapma/OneDrive/Documentos/GitHub/Challenge-Encriptador-de-texto/Img/encriptado.png";
+    avatar.src = "./Img/encriptado.png";
  } else {
-    avatar.src ="./Users/rapma/OneDrive/Documentos/GitHub/Challenge-Encriptador-de-texto/Img/muneco con fondo.png"
+    avatar.src ="./Img/muneco con fondo.png"
     tituloMensaje.textcontent = "Ningún mensaje fue encontrado"
     parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
     alert("debes ingresar algún texto");
@@ -40,7 +40,7 @@ function desencriptar () {
         document.getElementById ("texto").value = textoCifrado;
         tituloMensaje.textContent = "Texto desencriptado con éxito";
         parrafo.textContent = "";
-        avatar.src = ".Users/rapma/OneDrive/Documentos/GitHub/Challenge-Encriptador-de-texto/Img/desencriptado.png";   
+        avatar.src = "./Img/desencriptado.png";   
     } else {
         avatar.src ="./img/muneco con fondo.png"
         tituloMensaje.textcontent = "Ningún mensaje fue encontrado"
