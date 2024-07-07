@@ -55,6 +55,9 @@ body{
     gap: 40px;
 }
 
+.presentacion_imagen{
+    width: 50%
+}
 
 .presentacion__contenido__titulo{
     font-size: 36px;
