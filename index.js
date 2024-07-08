@@ -5,11 +5,11 @@ function encriptar() {
         let avatar = document.getElementById("avatar");  
 
         let textoCifrado = texto
-                            .replace (/e/gi, "ketib")
-                            .replace (/i/gi, "Iohar")
-                            .replace (/a/gi, "ari")
-                            .replace (/o/gi, "oryan")
-                            .replace (/u/gi, "umet");
+                            .replace (/e/gi, "enter")
+                            .replace (/i/gi, "imes")
+                            .replace (/a/gi, "ai")
+                            .replace (/o/gi, "ober")
+                            .replace (/u/gi, "ufat");
  if (texto.length != 0) {
     document.getElementById ("texto").value = textoCifrado;
     tituloMensaje.textContent = "Texto encriptado con éxito";
@@ -30,11 +30,11 @@ function desencriptar () {
     let avatar = document.getElementById("avatar");  
 
     let textoCifrado = texto
-    .replace(/ketib/gi, "e")
-    .replace (/Iohar/gi, "i")
-    .replace (/ari/gi, "a")
-    .replace (/oryan/gi, "o")
-    .replace (/umet/gi, "u");
+    .replace(/enter/gi, "e")
+    .replace (/imes/gi, "i")
+    .replace (/ai/gi, "a")
+    .replace (/ober/gi, "o")
+    .replace (/ufat/gi, "u");
 
     if (texto.length != 0) {
         document.getElementById ("texto").value = textoCifrado;
